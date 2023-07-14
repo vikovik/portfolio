@@ -94,7 +94,6 @@ const Button = styled.button`
   color: white;
   font-size: 1em;
   cursor: pointer;
-  scroll-behavior: smooth;
 
   &:hover {
     background-color: #55008d;
@@ -150,7 +149,7 @@ const Navbar = () => {
             <GitHub />
           </Link>
           <Button onClick={dowloadFile}>
-            <FileDownload style={{ fontSize: "1.7em", marginRight: ".3em" }} />{" "}
+            <FileDownload style={{ fontSize: "1.7em" }} />
             My Resume
           </Button>
         </Icons>
