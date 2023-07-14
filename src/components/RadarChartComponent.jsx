@@ -29,7 +29,7 @@ const data = [
     fullMark: 100,
   },
   {
-    value: "Independance",
+    value: "Independence",
     A: 85,
     fullMark: 100,
   },
