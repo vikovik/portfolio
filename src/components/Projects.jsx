@@ -62,12 +62,12 @@ const ProjectContainer = styled.div`
   background: #6c1c9130;
   border-radius: 30px;
   width: 300px;
-  height: 400px;
+  height: fit-content;
   box-shadow: 10px 10px 20px #00000073;
 
   @media only screen and (max-width: 768px) {
     width: 250px;
-    height: 280px;
+    height: fit-content;
   }
 `;
 

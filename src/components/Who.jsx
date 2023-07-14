@@ -112,9 +112,9 @@ const Who = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(150 - Math.random() * 100);
   const toRotate = [
-    "Web Developer.",
-    "Frontend Developer.",
-    "Fullstack Developer.",
+    "Web Developer...",
+    "Frontend Developer...",
+    "Fullstack Developer...",
   ];
   const period = 1500;
 
