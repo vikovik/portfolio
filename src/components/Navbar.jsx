@@ -42,7 +42,6 @@ const Logo = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  cursor: pointer;
   gap: 0.3em;
 `;
 
@@ -78,7 +77,7 @@ const Icons = styled.div`
   display: flex;
   align-items: center;
   gap: 1em;
-  
+
   @media only screen and (max-width: 768px) {
     gap: 0.5em;
     margin-left: 1em;
